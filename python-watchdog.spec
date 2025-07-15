@@ -55,7 +55,7 @@ Dokumentacja API modułu Pythona watchdog.
 
 %prep
 %setup -q -n watchdog-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %py_build
